@@ -1,11 +1,11 @@
 <h1>MARKDOWN: First Push Project </h1>
-<h2> By **Mr.Sirawich Vounchuy**  </h2>
+<h2> By Mr.Sirawich Vounchuy </h2>
 
 ----------
 
 	> $ git init
     > $ git add .
-    > $ git commit -m "first commit"
+    > $ git commit -m "Hello it's my first project commit"
     > $ git remote add origin git@github.com:SirawichDev/markdown_readme.git
     > $ git push -u origin master
 
