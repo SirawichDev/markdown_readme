@@ -20,5 +20,5 @@
 <h2> Reference </h2>
 
 * [DEVAHOY](https://devahoy.com/posts/introduction-to-git-and-github/)
-
+* [guides.github](https://guides.github.com/features/mastering-markdown/)
 
