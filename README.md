@@ -8,6 +8,7 @@
 > **$ git add .** track ทุกไฟล์ที่อยู่ในโฟลเดอร์ 
 
 > **$ git commit -m "Hello it's my first project commit"** คือการสร้าง snapshot ให้กับ repository ทำให้เราสามารถย้อนกลับมาดูว่าเราเปลี่ยนหรือแก้ไขโค๊ดอะไรไปบ้างได้
+
 > **$ git remote add origin git@github.com:SirawichDev/markdown_readme.git** เพิ่ม url ของ remote (Server) เพื่อให้รู้ว่าเราจะฝากโค๊ดไว้ที่ใด
 
 > **$ git push -u origin master** ต่อมาเราจะทำการส่งโค๊ดจากเครื่อง local ไปที่ Github ด้วยคำสั่ง
