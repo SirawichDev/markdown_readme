@@ -49,6 +49,7 @@
 <h2> HOMEWORK </h2>
 Create 2 new branches (dev, feature)
 dev: dev.md (lisyt command you have learn)
+
 feature: feature.md (list features in your project)
 
 merge master
