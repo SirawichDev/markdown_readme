@@ -35,6 +35,9 @@
 
 > **TIP 11:** ถ้าต้องการ สร้าง branch พร้อม switch ไปที่ branch นั้นเลย ใช้คำสั่ง `$ git checkout -b [nameofbranch]`     
 
+> **TIP 12:** ถ้าต้องการลบ branch นั้นออกใช้คำสั่ง `$ git branch -d [nameofbranch]` ต้องอย่าให้ branchปัจจุบันเป็น branch นั้นด้วย ถึงจะลบได้.
+
+
 <h2> Reference </h2>
 
 * [DEVAHOY](https://devahoy.com/posts/introduction-to-git-and-github/)
