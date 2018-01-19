@@ -23,6 +23,10 @@
 
 > **Tip 5:** เมื่อ Addไปแล้วต้องการ ที่จะuntrack ให้ใช่คำสั่ง `$ git reset HEAD [Filename]`
 
+> **Tip 6:** เช็คว่าเราทำอะไรไปบ้าง ให้ใช้ `$ git log` 
+
+> **Tip 7:** ถอด commit ออก ใช้คำสั่ง `$ git reset --soft "HEAD^"`
+
 <h2> Reference </h2>
 
 * [DEVAHOY](https://devahoy.com/posts/introduction-to-git-and-github/)
