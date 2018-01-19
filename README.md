@@ -27,6 +27,14 @@
 
 > **Tip 7:** ถอด commit ออก ใช้คำสั่ง `$ git reset --soft "HEAD^"`
 
+> **TIP 8:** `$ git branch -a` ดูว่ามี branch อะไรบ้าง
+
+> **TIP 9:** `$ git branch (nameofbranch)` สร้าง branch ขึ้นมาใหม่
+
+> **TIP 10:** เปลี่ยน branch ใช้คำสั่ง `$ git checkout [nameofbranch]` 
+
+> **TIP 11:** ถ้าต้องการ สร้าง branch พร้อม switch ไปที่ branch นั้นเลย ใช้คำสั่ง `$ git checkout -b [nameofbranch]`     
+
 <h2> Reference </h2>
 
 * [DEVAHOY](https://devahoy.com/posts/introduction-to-git-and-github/)
