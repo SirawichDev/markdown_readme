@@ -19,7 +19,9 @@
 
 > **Tip 3:** เมื่อมีปัญหา ไฟล์ในdesktop กับ ในเซิฟเวอร์ไม่ตรงกัน ให้ใช้คำสั่ง  `$ git pull` โดย  `$ git pull` = `$ git fetch` + `$ git merge`
 
-> **Tip 4:** เมื่ออยาก undo ไฟล์ ที่เราต้องการที่อยู่ในเซิฟเวอร์ `$ git checkout -- [Filename]` 
+> **Tip 4:** เมื่ออยาก undo ไฟล์ ที่เราต้องการที่อยู่ในเซิฟเวอร์ `$ git checkout -- [Filename]`
+
+> **Tip 5:** เมื่อ Addไปแล้วต้องการ ที่จะuntrack ให้ใช่คำสั่ง `$ git reset HEAD [Filename]`
 
 <h2> Reference </h2>
 
