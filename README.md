@@ -17,6 +17,10 @@
 
 > **Tip 2:** เมื่อ ทำ `$ git push -u origin master` ไปครั้งแรกแล้วครั้งอื่นๆสามารถทำ `$ git push` อย่าได้เลยโดย ตัด ~~-u origin master~~ ออกโดยbranch ที่push เข้าไปจะเป็น branchล่าสุด
 
+> **Tip 3:** เมื่อมีปัญหา ไฟล์ในdesktop กับ ในเซิฟเวอร์ไม่ตรงกัน ให้ใช้คำสั่ง  `$ git pull` โดย  `$ git pull` = `$ git fetch` + `$ git merge`
+
+> **Tip 4:** เมื่ออยาก undo ไฟล์ ที่เราต้องการที่อยู่ในเซิฟเวอร์ `$ git checkout -- [Filename]` 
+
 <h2> Reference </h2>
 
 * [DEVAHOY](https://devahoy.com/posts/introduction-to-git-and-github/)
