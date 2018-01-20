@@ -46,7 +46,8 @@
 * [DEVAHOY](https://devahoy.com/posts/introduction-to-git-and-github/)
 * [guides.github](https://guides.github.com/features/mastering-markdown/)
 
-* [Git Merge --on-ff](http://www.artit-k.com/how-to-git-config-merge-no-fast-forward/)
+* [Git Merge --on-ff อธิบาย 1](http://www.artit-k.com/how-to-git-config-merge-no-fast-forward/)
+* [Git Merge --no-ff อธิบาย 2](https://sites.google.com/site/chanwit/blogs/git-explained-branch-and-merge)
 
 <h2> HOMEWORK </h2>
 Create 2 new branches (dev, feature)
