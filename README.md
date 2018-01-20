@@ -46,6 +46,8 @@
 * [DEVAHOY](https://devahoy.com/posts/introduction-to-git-and-github/)
 * [guides.github](https://guides.github.com/features/mastering-markdown/)
 
+* [Git Merge --on-ff](http://www.artit-k.com/how-to-git-config-merge-no-fast-forward/)
+
 <h2> HOMEWORK </h2>
 Create 2 new branches (dev, feature)
 dev: dev.md (lisyt command you have learn)
