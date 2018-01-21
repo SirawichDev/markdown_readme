@@ -50,6 +50,8 @@
 * [Git Merge --no-ff อธิบาย 2](https://sites.google.com/site/chanwit/blogs/git-explained-branch-and-merge)
 * [สำหรับคนที่อยาก Push แบบไม่ต้องใส่รหัสซ้ำๆ (rsa key)](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
+* [อันนี้ Mediumของอาจาร์ย วโรดมเกี่ยวกับ git (เข้าใจง่ายมาก)](https://werapun.com/git-review-8ecb03b7c8cc)
+
 <h2> HOMEWORK </h2>
 Create 2 new branches (dev, feature)
 dev: dev.md (lisyt command you have learn)
