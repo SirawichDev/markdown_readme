@@ -48,6 +48,7 @@
 
 * [Git Merge --on-ff อธิบาย 1](http://www.artit-k.com/how-to-git-config-merge-no-fast-forward/)
 * [Git Merge --no-ff อธิบาย 2](https://sites.google.com/site/chanwit/blogs/git-explained-branch-and-merge)
+* [สำหรับคนที่อยาก Push แบบไม่ต้องใส่รหัสซ้ำๆ (rsa key)](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 <h2> HOMEWORK </h2>
 Create 2 new branches (dev, feature)
