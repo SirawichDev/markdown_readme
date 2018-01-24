@@ -69,3 +69,11 @@ merge master
 > **ทำไมถึงใช้?** : `git merge --no-ff [branchname]` ทำเมื่อ branch หลายๆ branch เวลา merge จะไปอยู่เส้นเดียวทำให้ดูยากมาก การแก้ปัญหาจึงนำ --no-ff มาใช้เพื่อทำให้ branch ที่สร้างขึ้นมาให้ แตกกิ่งก้านออกไป
 
 > **วิธีทำ(short)** : ทำการสร้าง branch ใหม่แล้วย้ายไป push เมื่อทำเสร็จแล้วให้ทำการกลับมายัง branch หลักแล้วทำการ merge แบบ no ff (no fast forward)แล้วเมื่อ แน่ใจจริงๆ ว่า branch นั้นเสร็จแล้วให้ทำการ push แล้วกลับมา merge ผลลัพธ์จะได้ network ของ branch ที่ดูง่ายสวยงาม **สามารถดูวิธีทำเพิ่มเติมได้ที่ Reference ที่อัพเดตให้**
+
+<h2>ถ้ามี Error Conflict</h2>
+
+> **วิธีแแก้** 
+
+* `git add -A`
+* `git commit -m "massage"`
+* `git push --force`
