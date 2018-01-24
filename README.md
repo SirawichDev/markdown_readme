@@ -37,10 +37,6 @@
 
 > **TIP 12:** ถ้าต้องการลบ branch นั้นออกใช้คำสั่ง `$ git branch -d [nameofbranch]` ต้องอย่าให้ branchปัจจุบันเป็น branch นั้นด้วย ถึงจะลบได้.
 
->> **Tip 13** ถ้าต้องการ รวมไฟล์ที่อยุ่ใน branch dev มาใส่ใน branch master ย้ายไป masterก่อน แล้วใช้คำสั่ง
+> **Tip 13** ถ้าต้องการ รวมไฟล์ที่อยุ่ใน branch dev มาใส่ใน branch master ย้ายไป masterก่อน แล้วใช้คำสั่ง
 `$ git merge [nameofbranch] ` 
-<h2> Reference </h2>
-
-* [DEVAHOY](https://devahoy.com/posts/introduction-to-git-and-github/)
-* [guides.github](https://guides.github.com/features/mastering-markdown/)
 
