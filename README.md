@@ -77,3 +77,4 @@ merge master
 * `git add -A`
 * `git commit -m "massage"`
 * `git push --force`
+* [ตามลิ้งค์นี้](https://githowto.com/resolving_conflicts)
