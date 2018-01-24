@@ -39,12 +39,15 @@
 
 > **Tip 13** ถ้าต้องการ รวมไฟล์ที่อยุ่ใน branch dev มาใส่ใน branch master ย้ายไป masterก่อน แล้วใช้คำสั่ง
 `$ git merge [nameofbranch] ` 
+<<<<<<< HEAD
 
 
 <h2> Reference </h2>
 
 * [DEVAHOY](https://devahoy.com/posts/introduction-to-git-and-github/)
 * [guides.github](https://guides.github.com/features/mastering-markdown/)
+=======
+>>>>>>> dev
 
 * [Git Merge --on-ff อธิบาย 1](http://www.artit-k.com/how-to-git-config-merge-no-fast-forward/)
 * [Git Merge --no-ff อธิบาย 2](https://sites.google.com/site/chanwit/blogs/git-explained-branch-and-merge)
