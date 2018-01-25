@@ -78,3 +78,8 @@ merge master
 * `git commit -m "massage"`
 * `git push --force`
 * [ตามลิ้งค์นี้](https://githowto.com/resolving_conflicts)
+ 
+ ### เพิ่มเติม แก้ปัญหา  conflict
+
+* `$ git stash` : คือการเซฟและซ่อนโปรเจ็คของเราไว้ สามารถที่จะ restore กลับได้ทุกเมื่อ
+* `$ git merge conflict` คือ เกิดกรณีที่มีการแก้ไขไฟล์เดียวกัน เวลาเดียวกัน Git จะไม่รู้ว่าเราควรจะใช้ไฟล์ไหนดี
