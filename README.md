@@ -40,6 +40,9 @@
 > **Tip 13** ถ้าต้องการ รวมไฟล์ที่อยุ่ใน branch dev มาใส่ใน branch master ย้ายไป masterก่อน แล้วใช้คำสั่ง
 `$ git merge [nameofbranch] `
 
+> **TIP 14:** ถ้าต้องการลบ branch ที่ remote  นั้นออกใช้คำสั่ง `$ git push origin --delete [nameofbranch]` 
+
+> **TIP 15:** ลบuser ออกจากเครื่องนั้น กด start พิมพ์ credential manager -> เลือก window credential -> เลือก github.com -> remove
 <h2> Reference </h2>
 
 * [DEVAHOY](https://devahoy.com/posts/introduction-to-git-and-github/)
