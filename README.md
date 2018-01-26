@@ -43,6 +43,13 @@
 > **TIP 14:** ถ้าต้องการลบ branch ที่ remote  นั้นออกใช้คำสั่ง `$ git push origin --delete [nameofbranch]` 
 
 > **TIP 15:** ลบuser ออกจากเครื่องนั้น กด start พิมพ์ credential manager -> เลือก window credential -> เลือก github.com -> remove
+
+> **TIP 16:** ถ้าต้องการติด tag ให้ใช้คำสั่ง `$ git tag [nameoftag]` แล้วทำคสั่ง `$ git push --tags` 
+
+> **TIP 17:** ถ้าต้องการย้อนกลับมา event ปัจจุบัน ใช้คำสั่ง `$ git checkout [namroftag]` มันจะอยู่กับ branch ปัจจุบัน  
+
+
+ 
 <h2> Reference </h2>
 
 * [DEVAHOY](https://devahoy.com/posts/introduction-to-git-and-github/)
