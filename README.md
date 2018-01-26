@@ -40,6 +40,9 @@
 > **Tip 13** ถ้าต้องการ รวมไฟล์ที่อยุ่ใน branch dev มาใส่ใน branch master ย้ายไป masterก่อน แล้วใช้คำสั่ง
 `$ git merge [nameofbranch] `
 
+> **TIP 14:** ถ้าต้องการลบ branch ที่ remote  นั้นออกใช้คำสั่ง `$ git push origin --delete [nameofbranch]` 
+
+> **TIP 15:** ลบuser ออกจากเครื่องนั้น กด start พิมพ์ credential manager -> เลือก window credential -> เลือก github.com -> remove
 <h2> Reference </h2>
 
 * [DEVAHOY](https://devahoy.com/posts/introduction-to-git-and-github/)
@@ -67,7 +70,7 @@ merge master
 <h2>Update HomeWorks</h2>
 
 > **ทำไมถึงใช้?** : `git merge --no-ff [branchname]` ทำเมื่อ branch หลายๆ branch เวลา merge จะไปอยู่เส้นเดียวทำให้ดูยากมาก การแก้ปัญหาจึงนำ --no-ff มาใช้เพื่อทำให้ branch ที่สร้างขึ้นมาให้ แตกกิ่งก้านออกไป
-
+> **ADDED** : ถ้าทำการ merge แบบไม่ --no-ff แล้วจะทำให้ branch นั้นหายไป
 > **วิธีทำ(short)** : ทำการสร้าง branch ใหม่แล้วย้ายไป push เมื่อทำเสร็จแล้วให้ทำการกลับมายัง branch หลักแล้วทำการ merge แบบ no ff (no fast forward)แล้วเมื่อ แน่ใจจริงๆ ว่า branch นั้นเสร็จแล้วให้ทำการ push แล้วกลับมา merge ผลลัพธ์จะได้ network ของ branch ที่ดูง่ายสวยงาม **สามารถดูวิธีทำเพิ่มเติมได้ที่ Reference ที่อัพเดตให้**
 
 <h2>ถ้ามี Error Conflict</h2>
@@ -79,7 +82,7 @@ merge master
 * `git push --force`
 * [ตามลิ้งค์นี้](https://githowto.com/resolving_conflicts)
  
- ### เพิ่มเติม แก้ปัญหา  conflict
+ ### เพิ่มเติมแก้ปัญหา  conflict
 
 * `$ git stash` : คือการเซฟและซ่อนโปรเจ็คของเราไว้ สามารถที่จะ restore กลับได้ทุกเมื่อ
 * `$ git merge conflict` คือ เกิดกรณีที่มีการแก้ไขไฟล์เดียวกัน เวลาเดียวกัน Git จะไม่รู้ว่าเราควรจะใช้ไฟล์ไหนดี
