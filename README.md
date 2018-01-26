@@ -64,6 +64,8 @@
 
 * [อันนี้ Mediumของอาจาร์ย วโรดมเกี่ยวกับ git (เข้าใจง่ายมาก)](https://werapun.com/git-review-8ecb03b7c8cc)
 
+* [Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+
 <h2> HOMEWORK </h2>
 Create 2 new branches (dev, feature)
 dev: dev.md (lisyt command you have learn)
@@ -100,3 +102,13 @@ merge master
 * assign ดึงนักพัฒนาเข้ามาได้ไม่เกิน 10 คน
 * Label จะติดบอกไว้ว่าต้องการช่วยหรืออะไร
 * close issue ได้้ด้วยคำสั่ง commit -m "fix #ตัวเลขของ issues นั้นๆ"
+
+### WIKI PAGE
+
+
+### mliestones
+* เป็น group กลุ่มของ feature คล้ายๆทำเป็น pregress 
+* ตั้งว่า feature ใหนต้องเสร็จภายในวันที่เท่าไหร
+*เอา issue มาผูกกับ milestone ได้ 
+* % ในการเสร็จอยู่ที่ issue ที่ผูกได้ทำการ ปิดลง
+* 
