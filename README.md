@@ -46,7 +46,9 @@
 
 > **TIP 16:** ถ้าต้องการติด tag ให้ใช้คำสั่ง `$ git tag [nameoftag]` แล้วทำคสั่ง `$ git push --tags` 
 
-> **TIP 17:** ถ้าต้องการย้อนกลับมา event ปัจจุบัน ใช้คำสั่ง `$ git checkout [namroftag]` มันจะอยู่กับ branch ปัจจุบัน  
+> **TIP 17:** ถ้าต้องการย้อนกลับมา event ปัจจุบัน ใช้คำสั่ง `$ git checkout [namroftag]` มันจะอยู่กับ branch ปัจจุบัน 
+
+> **TIP 18:** ถ้าต้องการลบ tags ใช้คำสั่ง `$ git tags -d ` แต่ที่ remote ยังไม่ถูกลบ ต้อง ใช้คำสั่ง `$ git push origin --delete [ชื่อของtag]`
 
 
  
